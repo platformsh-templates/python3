@@ -18,11 +18,11 @@
     "default": {
         "platformshconfig": {
             "hashes": [
-                "sha256:7a7fccc1eaebb255527a5875e85ac71c6f85a67576a9bd0f69df8078d1094319",
-                "sha256:7c44af99c8bce6c4b0fc4780f5156d2109500d2ef78f558c96622f77e71a0744"
+                "sha256:d285702d2c1344fa1ae333356ae717fe102c7ac7cf61edd15d294e56e004839a",
+                "sha256:effa9e10ac22cd641f0f4f618eb4c02307a43caa1b7c6dda86b3344bcd246f3d"
             ],
             "index": "pypi",
-            "version": "==2.3.1"
+            "version": "==2.2.3"
         },
         "pymysql": {
             "hashes": [
@@ -34,11 +34,11 @@
         },
         "redis": {
             "hashes": [
-                "sha256:0e7e0cfca8660dea8b7d5cd8c4f6c5e29e11f31158c0b0ae91a397f00e5a05a2",
-                "sha256:432b788c4530cfe16d8d943a09d40ca6c16149727e4afe8c2c9d5580c59d9f24"
+                "sha256:98a22fb750c9b9bb46e75e945dc3f61d0ab30d06117cbb21ff9cd1d315fedd3b",
+                "sha256:c504251769031b0dd7dd5cf786050a6050197c6de0d37778c80c08cb04ae8275"
             ],
             "index": "pypi",
-            "version": "==3.5.3"
+            "version": "==3.3.8"
         }
     },
     "develop": {}
