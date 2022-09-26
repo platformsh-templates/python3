@@ -28,10 +28,10 @@ The following files are of particular importance.  If using this project as a re
 
 The `server.py` script expects to find which port to use through a `PORT` environment variable.
 Platform.sh provides one automatically.
-To replicate the experience locally, start the server with this command:
+To replicate the experience locally, start the server with a command like the following (use any port that you like):
 
 ```bash
-PORT=9999 python server.py
+PORT=8000 python server.py
 ```
 
 ## References
