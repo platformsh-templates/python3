@@ -7,17 +7,18 @@
 name: app
 
 # The runtime the application uses.
-type: "python:3.8"
+type: "python:3.11"
 
 # The build-time dependencies of the app.
 dependencies:
     python3:
-       pipenv: "2018.10.13"
+       pipenv: "2022.12.19"
 
 # The hooks executed at various points in the lifecycle of the application.
 hooks:
     build: |
-      pipenv install --system --deploy
+        set -eu
+        pipenv install --system --deploy
 
 # The size of the persistent disk of the application (in MB).
 disk: 1024
@@ -40,4 +41,4 @@ source:
     auto-update:
       command: |
         curl -fsS https://raw.githubusercontent.com/platformsh/source-operations/main/setup.sh | { bash /dev/fd/3 sop-autoupdate; } 3<&0
-    
+
