@@ -33,7 +33,7 @@ class myHandler(BaseHTTPRequestHandler):
       try:
           result = callback(*args, **kwargs)
           return {
-              "status": "OK",
+              "status": "OK - yes",
               "return": result,
           }
       except Exception:
