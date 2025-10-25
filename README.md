@@ -25,6 +25,16 @@ The following files are of particular importance.  If using this project as a re
 
 * The `.platform.app.yaml`, `.platform/services.yaml`, and `.platform/routes.yaml` files have been added.  These provide Platform.sh-specific configuration and are present in all projects on Platform.sh.  You may customize them as you see fit.
 
+## Running locally
+
+The `server.py` script expects to find which port to use through a `PORT` environment variable.
+Platform.sh provides one automatically.
+To replicate the experience locally, start the server with a command like the following (use any port that you like):
+
+```bash
+PORT=8000 python server.py
+```
+
 ## References
 
 * [Python](https://www.python.org/)
